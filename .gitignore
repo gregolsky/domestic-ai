@@ -1,0 +1,39 @@
+# Runtime state
+.state/
+
+# Personal shopping lists
+lista-*.csv
+
+# Memory / resolutions cache
+memory/
+
+# Local Claude settings (per-user)
+.claude/settings.local.json
+.claude/settings.local.json.backup
+
+# LibreOffice / Office lock files
+.~lock.*#
+~$*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (in case skills grow tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
