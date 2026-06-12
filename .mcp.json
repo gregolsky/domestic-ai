@@ -2,7 +2,17 @@
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["-y", "chrome-devtools-mcp@latest", "--user-data-dir=/home/gregolsky/.cache/chrome-devtools-mcp/zakupy"]
+      "args": ["-y", "chrome-devtools-mcp@latest", "--user-data-dir=/home/gregolsky/.cache/chrome-devtools-mcp/zakupy"],
+      "allowedTools": [
+        "navigate_page",
+        "evaluate_script",
+        "take_snapshot",
+        "take_screenshot",
+        "click",
+        "fill",
+        "list_pages",
+        "select_page"
+      ]
     }
   }
 }
